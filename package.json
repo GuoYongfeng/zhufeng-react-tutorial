@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/webpack-dev-server --hot --progress --colors --content-base build",
-    "build": "./node_modules/webpack --progress --colors"
+    "dev": "./node_modules/.bin/webpack-dev-server --hot --progress --colors --content-base build",
+    "dist": "./node_modules/.bin/webpack --progress --colors"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,17 @@
     "url": "https://github.com/zhufengreact/zhufeng-react-tutorial/issues"
   },
   "homepage": "https://github.com/zhufengreact/zhufeng-react-tutorial#readme",
-  "dependencies": {}
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
