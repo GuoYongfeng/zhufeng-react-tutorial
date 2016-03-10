@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Zhufeng React Tutorial </title>
+  <script src="../../vendor/react.js"></script>
+  <script src="../../vendor/react-dom.js"></script>
+  <script src="../../vendor/browser.min.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="text/babel">
+
+    let Component = React.Component;
+
+    class StateDemo extends Component {
+      state = {
+        secondsElapsed: 0
+      }
+      tick(){
+        this.setInterval({
+          secondsElapsed: this.state.secondsElapsed + 1
+        })
+      }
+      componentDidMount(){
+        this.interval = setInterval( this.tick, 1000 );
+      }
+      componentWillUnmount(){
+        clearInterval(this.interval);
+      }
+      render(){
+        return (
+          <div>目前已经计时：{this.state.secondsElapsed}秒</div>
+        )
+      }
+    }
+
+    ReactDOM.render(
+      <StateDemo />, document.getElementById('app')
+    );
+
+  </script>
+</body>
+</html>
