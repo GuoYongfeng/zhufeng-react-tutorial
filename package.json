@@ -1,0 +1,26 @@
+{
+  "name": "zhufeng-react-tutorial",
+  "version": "1.0.0",
+  "description": "zhufeng react tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/webpack-dev-server --hot --progress --colors --content-base build",
+    "build": "./node_modules/webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhufengreact/zhufeng-react-tutorial.git"
+  },
+  "keywords": [
+    "react",
+    "tutorial"
+  ],
+  "author": "guoyongfeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhufengreact/zhufeng-react-tutorial/issues"
+  },
+  "homepage": "https://github.com/zhufengreact/zhufeng-react-tutorial#readme",
+  "dependencies": {}
+}
