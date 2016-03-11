@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 class ComponentA extends Component {
   render() {
-    return <a href='#'>我是组件A</a>
+    return <a href='#'>我是组件A<br/></a>
   }
 }
 

@@ -28,3 +28,7 @@ export SelfCreateComponent from './07-multiple-components/SelfCreateComponent';
 export UseChildrenComponent from './07-multiple-components/UseChildrenComponent';
 
 // 8
+export FormApp from './08-form/FormApp';
+
+// 9
+export MixinDemo from './09-mixin/MixinDemo';

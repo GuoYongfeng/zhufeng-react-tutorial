@@ -11,7 +11,11 @@ import {
   LifeCycleDemo,
   DestroyComponent,
   HandleDOMComponent,
-  HandleEvent
+  HandleEvent,
+  SelfCreateComponent,
+  UseChildrenComponent,
+  FormApp,
+  MixinDemo
 
 } from '../components';
 
@@ -36,12 +40,13 @@ class App extends Component {
           <LifeCycleDemo />
           <DestroyComponent />
           <HandleDOMComponent />
+          <HandleEvent />
+          <SelfCreateComponent />
+          <UseChildrenComponent />
+          <FormApp />
            */
         }
-
-        <HandleEvent />
-
-
+        <MixinDemo />
       </div>
     )
   }
