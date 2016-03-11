@@ -10,7 +10,8 @@ import {
   PropTypesDemo,
   LifeCycleDemo,
   DestroyComponent,
-  HandleDOMComponent
+  HandleDOMComponent,
+  HandleEvent
 
 } from '../components';
 
@@ -34,9 +35,11 @@ class App extends Component {
           <PropTypesDemo />
           <LifeCycleDemo />
           <DestroyComponent />
+          <HandleDOMComponent />
            */
         }
-        <HandleDOMComponent />
+
+        <HandleEvent />
 
 
       </div>

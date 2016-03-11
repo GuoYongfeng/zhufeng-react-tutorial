@@ -19,3 +19,12 @@ export DestroyComponent from './04-lifecycle/DestroyComponent';
 
 // 5
 export HandleDOMComponent from './05-handle-dom/HandleDOMComponent';
+
+// 6
+export HandleEvent from './06-events/HandleEvent';
+
+// 7
+export SelfCreateComponent from './07-multiple-components/SelfCreateComponent';
+export UseChildrenComponent from './07-multiple-components/UseChildrenComponent';
+
+// 8
